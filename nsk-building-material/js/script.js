@@ -1,5 +1,3 @@
-
-```javascript
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile Navigation Toggle
     const hamburger = document.querySelector('.hamburger');
@@ -140,4 +138,4 @@ document.addEventListener('DOMContentLoaded', function() {
         origin: 'left'
     });
 });
-```
+
