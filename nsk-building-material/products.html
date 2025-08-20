@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | NSK Building Materials Trading LLC</title>
+    <meta name="description" content="Explore our wide range of high-quality building materials including cement, steel, plumbing, and electrical supplies.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +971 4 229 4144</span>
+                    <span><i class="fas fa-envelope"></i> info@nskbuildingmaterials.com</span>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="NSK Building Materials Trading LLC Logo">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Page Banner -->
+    <section class="page-banner">
+    <video autoplay muted loop playsinline>
+            <source src="images/page-banner.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>High-quality building materials for all your construction needs</p>
+        </div>
+    </section>
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-filter">
+                <h3>Filter by Category:</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Products</button>
+                    <button class="filter-btn" data-filter="cement">Cement & Concrete</button>
+                    <button class="filter-btn" data-filter="steel">Steel & Reinforcement</button>
+                    <button class="filter-btn" data-filter="plumbing">Plumbing</button>
+                    <button class="filter-btn" data-filter="electrical">Electrical</button>
+                    <button class="filter-btn" data-filter="tools">Tools & Equipment</button>
+                </div>
+            </div>
+            <div class="products-grid">
+                <!-- Cement & Concrete Products -->
+                <div class="product-item" data-category="cement" id="cement">
+                    <div class="product-image">
+                        <img src="images/products/cement-1.jpg" alt="Portland Cement">
+                        <div class="product-badge">Best Seller</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Portland Cement</h3>
+                        <p>High-quality ordinary Portland cement suitable for all general construction purposes.</p>
+                        <div class="product-specs">
+                            <span><i class="fas fa-weight-hanging"></i> 50kg bags</span>
+                            <span><i class="fas fa-certificate"></i> EN 197-1 Certified</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Request Quote</a>
+                    </div>
+                </div>
+                <div class="product-item" data-category="cement">
+                    <div class="product-image">
+                        <img src="images/products/concrete-mix.jpg" alt="Ready Mix Concrete">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ready Mix Concrete</h3>
+                        <p>Custom formulations available for different strength requirements and applications.</p>
+                        <div class="product-specs">
+                            <span><i class="fas fa-truck"></i> Delivery Available</span>
+                            <span><i class="fas fa-ruler-combined"></i> Various Grades</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Request Quote</a>
+                    </div>
+                </div>
+                <!-- Steel & Reinforcement Products -->
+                <div class="product-item" data-category="steel" id="steel">
+                    <div class="product-image">
+                        <img src="images/products/rebar.jpg" alt="Steel Rebar">
+                    </div>
+                    <div class="product-info">
+                        <h3>Steel Rebar</h3>
+                        <p>High tensile strength reinforcement bars in various diameters from 6mm to 32mm.</p>
+                        <div class="product-specs">
+                            <span><i class="fas fa-ruler-vertical"></i> 6mm - 32mm</span>
+                            <span><i class="fas fa-barcode"></i> ASTM A615</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Request Quote</a>
+                    </div>
+                </div>
+                <div class="product-item" data-category="steel">
+                    <div class="product-image">
+                        <img src="images/products/wire-mesh.jpg" alt="Wire Mesh">
+                    </div>
+                    <div class="product-info">
+                        <h3>Wire Mesh</h3>
+                        <p>Welded wire mesh panels for concrete reinforcement and partition walls.</p>
+                        <div class="product-specs">
+                            <span><i class="fas fa-th"></i> Various Sizes</span>
+                            <span><i class="fas fa-barcode"></i> ASTM A185</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Request Quote</a>
+                    </div>
+                </div>
+                <!-- Plumbing Products -->
+                <div class="product-item" data-category="plumbing" id="plumbing">
+                    <div class="product-image">
+                        <img src="images/products/pvc-pipes.jpg" alt="PVC Pipes">
+                        <div class="product-badge">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>PVC Pipes & Fittings</h3>
+                        <p>Complete range of PVC pipes and fittings for plumbing and drainage systems.</p>
+                        <div class="product-specs">
+                            <span><i class="fas fa-ruler-vertical"></i> 1/2" - 6"</span>
+                            <span><i class="fas fa-certificate"></i> ASTM D1785</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Request Quote</a>
+                    </div>
+                </div>
+                <div class="product-item" data-category="plumbing">
+                    <div class="product-image">
+                        <img src="images/products/copper-pipes.jpg" alt="Copper Pipes">
+                    </div>
+                    <div class="product-info">
+                        <h3>Copper Pipes & Fittings</h3>
+                        <p>High-quality copper pipes for water supply and HVAC applications.</p>
+                        <div class="product-specs">
+                            <span><i class="fas fa-fire"></i> Type L & Type M</span>
+                            <span><i class="fas fa-certificate"></i> ASTM B88</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Request Quote</a>
+                    </div>
+                </div>
+                <!-- Electrical Products -->
+                <div class="product-item" data-category="electrical" id="electrical">
+                    <div class="product-image">
+                        <img src="images/products/electrical-wires.jpg" alt="Electrical Wires">
+                    </div>
+                    <div class="product-info">
+                        <h3>Electrical Wires & Cables</h3>
+                        <p>Copper and aluminum electrical wires in various gauges and insulation types.</p>
+                        <div class="product-specs">
+                            <span><i class="fas fa-bolt"></i> 1.5mm² - 240mm²</span>
+                            <span><i class="fas fa-certificate"></i> IEC 60228</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Request Quote</a>
+                    </div>
+                </div>
+                <div class="product-item" data-category="electrical">
+                    <div class="product-image">
+                        <img src="images/products/conduits.jpg" alt="Electrical Conduits">
+                    </div>
+                    <div class="product-info">
+                        <h3>Electrical Conduits</h3>
+                        <p>PVC and metal conduits for electrical wiring protection.</p>
+                        <div class="product-specs">
+                            <span><i class="fas fa-shield-alt"></i> PVC & Metal</span>
+                            <span><i class="fas fa-certificate"></i> UL 651</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Request Quote</a>
+                    </div>
+                </div>
+                <!-- Tools & Equipment -->
+                <div class="product-item" data-category="tools" id="tools">
+                    <div class="product-image">
+                        <img src="images/products/power-tools.jpg" alt="Power Tools">
+                    </div>
+                    <div class="product-info">
+                        <h3>Power Tools</h3>
+                        <p>Professional-grade power tools from leading brands for construction applications.</p>
+                        <div class="product-specs">
+                            <span><i class="fas fa-plug"></i> Corded & Cordless</span>
+                            <span><i class="fas fa-certificate"></i> 1 Year Warranty</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Request Quote</a>
+                    </div>
+                </div>
+                <div class="product-item" data-category="tools">
+                    <div class="product-image">
+                        <img src="images/products/safety-gear.jpg" alt="Safety Equipment">
+                    </div>
+                    <div class="product-info">
+                        <h3>Safety Equipment</h3>
+                        <p>Complete range of personal protective equipment for construction sites.</p>
+                        <div class="product-specs">
+                            <span><i class="fas fa-hard-hat"></i> EN Certified</span>
+                            <span><i class="fas fa-user-shield"></i> Various Sizes</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Request Quote</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-categories">
+                <h2>Product Categories</h2>
+                <div class="categories-grid">
+                    <a href="#Plywood" class="category-card">
+                        <img src="images/products/plywood.WEBP" alt="Cement & Concrete">
+                        <h3>Plywood</h3>
+                    </a>
+                    <a href="#Wood" class="category-card">
+                        <img src="images/products/whitewood.jpg" alt="Whitewood">
+                        <h3>Whitewood</h3>
+                    </a>
+                    <a href="#Formwork & Scaffolding" class="category-card">
+                        <img src="images/products/scaffold.jpg" alt="Formwork & Scaffolding">
+                        <h3>Formwork & Scaffolding</h3>
+                    </a>
+                    <a href="#electrical" class="category-card">
+                        <img src="images/products/electrical-category.jpg" alt="Electrical Supplies">
+                        <h3>Electrical Supplies</h3>
+                    </a>
+                    <a href="#tools" class="category-card">
+                        <img src="images/products/tools-category.jpg" alt="Tools & Equipment">
+                        <h3>Tools & Equipment</h3>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="images/products/other-category.jpg" alt="Other Materials">
+                        <h3>Other Materials</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Brands Section -->
+    <section class="brands-section">
+        <div class="container">
+            <h2 class="section-title">Our Trusted Brands</h2>
+            <div class="brands-slider">
+                <div class="brand-item">
+                    <img src="images/brands/brand1.png" alt="Brand 1">
+                </div>
+                <div class="brand-item">
+                    <img src="images/brands/brand2.png" alt="Brand 2">
+                </div>
+                <div class="brand-item">
+                    <img src="images/brands/brand3.png" alt="Brand 3">
+                </div>
+                <div class="brand-item">
+                    <img src="images/brands/brand4.png" alt="Brand 4">
+                </div>
+                <div class="brand-item">
+                    <img src="images/brands/brand5.png" alt="Brand 5">
+                </div>
+                <div class="brand-item">
+                    <img src="images/brands/brand6.png" alt="Brand 6">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Can't Find What You're Looking For?</h2>
+            <p>Contact our sales team for special orders or custom requirements.</p>
+            <a href="contact.html" class="btn">Contact Sales</a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-col">
+                    <img src="images/logo-white.jpg" alt="NSK Building Materials Logo" class="footer-logo">
+                    <p>Your trusted partner for high-quality building materials in the UAE.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="products.html#cement">Cement & Concrete</a></li>
+                        <li><a href="products.html#steel">Steel & Reinforcement</a></li>
+                        <li><a href="products.html#plumbing">Plumbing Materials</a></li>
+                        <li><a href="products.html#electrical">Electrical Supplies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Interchange 8, Al Dhaid Rd, Near Eastern Pearl Bldg Mat Shop, Al Sajaa, Sharjah, UAE</li>
+                        <li><i class="fas fa-phone"></i> +971 4 229 4144</li>
+                        <li><i class="fas fa-envelope"></i> info@nskbuildingmaterials.com</li>
+                        <li><i class="fas fa-clock"></i> Sun-Thu: 8:00 AM - 6:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 NSK Building Materials Trading LLC. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
