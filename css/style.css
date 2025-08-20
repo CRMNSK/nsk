@@ -178,7 +178,7 @@ ul {
 }
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/page-banner.webm') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./images/page-banner.webm') no-repeat center center/cover;
     position: relative;
     height: 80vh;
     display: flex;
@@ -323,7 +323,7 @@ ul {
 /* Testimonials */
 .testimonials {
     padding: 80px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/testimonial-bg.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./images/testimonial-bg.jpg') no-repeat center center/cover;
     color: var(--white);
     text-align: center;
 }
@@ -954,3 +954,4 @@ ul {
         margin: 0 7px;
     }
 }
+
